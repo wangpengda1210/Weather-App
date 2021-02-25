@@ -1,0 +1,25 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "lib = shelve.open(\"my_library\", writeback=False)\nlib[\"Divergent trilogy\"\
+    ] = [\"Divergent\", \"Insurgent\", \"\tAllegiant\"]\nlib[\"The Lord of the Rings\"\
+    ] = [\"The Fellowship of the Ring\", \"The Two Towers\", \"The Return of the King\"\
+    , \"The Silmarillion\"]\n\n# write your code here\n\n\nprint(len(lib[\"The Lord\
+    \ of the Rings\"]))\n\nlib.close()"
+  learner_created: false
+- name: my_library.dat
+  visible: true
+  learner_created: true
+- name: my_library.bak
+  visible: true
+  learner_created: true
+- name: my_library.dir
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11345#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 25 Feb 2021 01:44:51 UTC
+record: -1

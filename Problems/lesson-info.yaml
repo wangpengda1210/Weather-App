@@ -1,2 +1,5 @@
 content:
 - Triangle or not triangle
+- Context manager usage
+- Making changes in a persistent dictionary
+- Printing the content

@@ -1,0 +1,28 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    lib = shelve.open("my_library")
+    lib["Twilight Saga"] = ["Twilight", "New Moon", "Eclipse", "Breaking Dawn"]
+
+    # write your code here
+
+
+    lib.close()
+  learner_created: false
+- name: my_library.dat
+  visible: true
+  learner_created: true
+- name: my_library.bak
+  visible: true
+  learner_created: true
+- name: my_library.dir
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11343#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 25 Feb 2021 01:51:16 UTC
+record: -1
